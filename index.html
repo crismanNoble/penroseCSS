@@ -6,8 +6,71 @@
 
   <title>Penrose in CSS</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    body {
+      background: #f4f4f4;
+    }
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px black dotted;;
+    }
+
+    a:hover {
+      border-bottom: 1px black solid;
+    }
+
+    #penrose {
+      width: 120px;
+      position: fixed;
+      top: 30px;
+      left: 50%;
+      margin-left: -60px;
+    }
+
+    #description {
+      width: 360px;
+      position: fixed;
+      top: 150px;
+      left: 50%;
+      margin-left: -180px;
+      font-family: 'courier-new', courier;
+    }
+
+    .triangle {
+      margin-left: -10px;
+      width: 0px; 
+      height: 0px; 
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 17.25px solid transparent;
+      float: left;
+    }
+
+    .triangleOdd {
+      margin-left: -10px;
+      width: 0px; 
+      height: 0px; 
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 17.25px solid transparent;
+      float: left;
+    }
+
+    .first {
+      margin-left: 0px;
+    }
+
+    .clear {
+      border-color: transparent;
+    }
+
+    .small {
+      font-size: .75em;
+    }
+  </style>
+
+  <link rel="shortcut icon" href="favicon.ico" />
 
 </head>
 <body>
@@ -89,15 +152,12 @@
     <div class="triangleOdd  white2" data-0="border-top-color:rgb(205,205,205);" data-100="border-top-color:rgb(93,165,55);"></div>
 </div>
 <div id="description">
-  This is a penrose triangle, created using CSS by <a href="http://crisnoble.com" data-0="color:rgb(0,0,0);" data-100="color:rgb(111,33,108);">Cris Noble</a>.
-  <p>It is <b>not</b> <em>'just like <a href="http://theverge.com" data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">theVerge's</a> logo!'</em>
-  <p>Still reading? You could <a href="http://en.wikipedia.org/wiki/Tetractys" data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">read more about ancient geometry</a>, <a href="#" data-0="color:rgb(0,0,0);" data-100="color:rgb(111,33,108);">dig into the source of this shape</a>, <a href="#"  data-0="color:rgb(0,0,0);" data-100="color:rgb(243,75,13);">peek at the creation process</a>, or <a href="http://pleeq.com/user/earwaxinvasion/" data-0="color:rgb(0,0,0);" data-100="color:rgb(197,1,2);">see what others have done with isometric angles</a>.
-<p>You should also scroll down a bit for a fun effect powered by <a href="https://github.com/Prinzhorn/skrollr"  data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">skrollr</a>.
-    <p class="small">a <a href="#" data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">mksht</a> x <a href="#" data-0="color:rgb(0,0,0);" data-100="color:rgb(111,33,108);">crisnoble</a> speed project
-
+    <p>This is a penrose triangle, created using CSS by <a target="_blank" href="http://crisnoble.com" data-0="color:rgb(0,0,0);" data-100="color:rgb(111,33,108);">Cris Noble</a>.
+    <p>It is <b>not</b> <em>'just like <a target="_blank" href="http://theverge.com" data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">theVerge's</a> logo!'</em>
+    <p>Still reading? You could <a target="_blank" href="http://en.wikipedia.org/wiki/Tetractys" data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">read more about ancient geometry</a>, <a target="_blank" href="#" data-0="color:rgb(0,0,0);" data-100="color:rgb(111,33,108);">dig into the source of this shape</a>, <a target="_blank" href="#"  data-0="color:rgb(0,0,0);" data-100="color:rgb(243,75,13);">peek at the creation process</a>, or <a target="_blank" href="http://pleeq.com/user/earwaxinvasion/" data-0="color:rgb(0,0,0);" data-100="color:rgb(197,1,2);">see what others have done with isometric angles</a>.
+    <p>You should also scroll down a bit for a fun effect powered by <a target="_blank" href="https://github.com/Prinzhorn/skrollr"  data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">skrollr</a>.
+    <p class="small">a <a target="_blank"  href="http://mksht.crisnoble.com" data-0="color:rgb(0,0,0);" data-100="color:rgb(93,165,55);">mksht</a> x <a target="_blank"  href="http://crisnoble.com" data-0="color:rgb(0,0,0);" data-100="color:rgb(111,33,108);">crisnoble</a> speed project
 </div>
-
-
   <!--link to skrollr -->
   <script type="text/javascript" src="https://raw.github.com/Prinzhorn/skrollr/master/skrollr.js"></script>
   <script type="text/javascript">
