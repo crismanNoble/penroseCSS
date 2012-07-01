@@ -1,6 +1,6 @@
 Penrose Triangle in CSS
 =======
-![Penrose Triangle](http://www4c.wolframalpha.com/Calculate/MSP/MSP2641a24h29e827h40h400000f3hd56b33d8f782?MSPStoreType=image/gif&s=26&w=397&h=200 " Penrose via Wolfram Alpha)  
+![Penrose Triangle](http://www4c.wolframalpha.com/Calculate/MSP/MSP2641a24h29e827h40h400000f3hd56b33d8f782?MSPStoreType=image/gif&s=26&w=397&h=200 Penrose via Wolfram Alpha)  
 
 [From Wikipedia:](http://en.wikipedia.org/wiki/Penrose_triangle)
 >The Penrose triangle, also known as the Penrose tribar, is an impossible object. It was first created by the Swedish artist Oscar Reutersvärd in 1934. The mathematician Roger Penrose independently devised and popularised it in the 1950s, describing it as "impossibility in its purest form". It is featured prominently in the works of artist M. C. Escher, whose earlier depictions of impossible objects partly inspired it.
