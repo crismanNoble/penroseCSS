@@ -24,6 +24,15 @@ That can be approximated with this css:
       border-bottom: 17.25px solid red;
     }`
 
+You need to flip everyother triangle too:
+    `.triangleOdd {
+      width: 0px; 
+      height: 0px; 
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 17.25px solid blue;
+    }`
+
 Put triangles next to each other with the following rules
     `margin-left: -10px;
     float: left;`
