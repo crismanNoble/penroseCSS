@@ -1,6 +1,7 @@
 Penrose Triangle in CSS
 =======
-![Penrose Triangle](http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Penrose-dreieck.svg/192px-Penrose-dreieck.svg.png "Penrose via Wikipedia")
+![Penrose Triangle](http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Penrose-dreieck.svg/192px-Penrose-dreieck.svg.png "Penrose via Wikipedia")  
+
 [From Wikipedia:](http://en.wikipedia.org/wiki/Penrose_triangle)
 >The Penrose triangle, also known as the Penrose tribar, is an impossible object. It was first created by the Swedish artist Oscar Reutersvärd in 1934. The mathematician Roger Penrose independently devised and popularised it in the 1950s, describing it as "impossibility in its purest form". It is featured prominently in the works of artist M. C. Escher, whose earlier depictions of impossible objects partly inspired it.
 
@@ -15,8 +16,17 @@ We can make a CSS triangle of pretty much any shape using [this old trick](http:
 An isometric triangle has the following properties:
 
 That can be approximated with this css:
+    .triangle {
+      width: 0px; 
+      height: 0px; 
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 17.25px solid red;
+    }
 
-Put two next to each other:
+Put two next to each other with the following rules
+    margin-left: -10px;
+    float: left;
 
 Make a new line of triangles:
 
