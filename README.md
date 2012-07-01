@@ -1,13 +1,7 @@
-impulse
+Penrose Triangle in CSS
 =======
 
-*I made **[impulse](https://github.com/crismanNoble/impulse)** because despite the great boilerplates out there, I always spend too much time setting up my files when making a demo.*
+[From Wikipedia:](http://en.wikipedia.org/wiki/Penrose_triangle)
+>The Penrose triangle, also known as the Penrose tribar, is an impossible object. It was first created by the Swedish artist Oscar Reutersvärd in 1934. The mathematician Roger Penrose independently devised and popularised it in the 1950s, describing it as "impossibility in its purest form". It is featured prominently in the works of artist M. C. Escher, whose earlier depictions of impossible objects partly inspired it.
 
-[From Wikipedia:](http://en.wikipedia.org/wiki/Impulse_(physics))
->Impulse is:  
-	the gun powder accelerating the bullet in a rifle,  
-	the bow string accelerating the arrow,  
-	the rocket engines accelerating the shuttle,  
-	the fist accelerating the punching bag.  
-
-and now, getting a usable skeleton directory and files in three lines.
+I attempt to make it using css.
